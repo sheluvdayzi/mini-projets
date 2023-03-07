@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Toggling tabs</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs active">
+            <div class="tabs__sort tabs__sort--active">
+                <p class="tab">Sort by price</p>
+            </div>
+            <div class="tabs__sort tabs__sort--center">
+                <p class="tab">Sort by name</p>
+            </div>
+            <div class="tabs__sort">
+                <p class="tab">Sort by relevance</p>
+            </div>
+        </div>
+
+        <select name="pets" class="pet-select">
+            <option value="price">Sort by price</option>
+            <option value="name">Sort by name</option>
+            <option value="relevane">Sort by relevance</option>
+        </select>
+    </div>
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
