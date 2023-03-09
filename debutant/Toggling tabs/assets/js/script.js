@@ -14,5 +14,4 @@ for(let i = 0; i < click.length; i++){
 select.addEventListener('click', () => {
     document.querySelector('.tabs__sort--active').classList.remove('tabs__sort--active');
     click[select.selectedIndex].classList.add('tabs__sort--active');
-    
 });
