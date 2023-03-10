@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Progress navigation</title>
 </head>
 <body>
@@ -18,24 +18,35 @@
 
 
     <div class="container">
-        <div>
-            <div>
-                <span>1</span>
-                <span>Choose title</span>
+        <div class="etapes">
+            <div class="etape">
+                <span class="span__nb span__nbcolor--active">1</span>
+                <span class="span__txt span__txtbold--active">Choose title</span>
             </div>
-            <div>
-                <span>2</span>
-                <span>Choose description</span>
+            <div class="etape">
+                <span class="span__nb">2</span>
+                <span class="span__txt">Choose description</span>
             </div>
-            <div>
-                <span>3</span>
-                <span>Confirm data</span>
+            <div class="etape">
+                <span class="span__nb">3</span>
+                <span class="span__txt">Confirm data</span>
             </div>
         </div>
-        <div></div>
+        <div class="choose">
+            <span>Choose description content</span>
+            <div class="buttons button--active">
+                <p class="button">Submit Title</p>
+            </div>
+            <div class="buttons">
+                <p class="button__back">Back</p>
+                <p class="button__sub--description">Submit description</p>
+            </div>
+
+        </div>
+
     </div>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 

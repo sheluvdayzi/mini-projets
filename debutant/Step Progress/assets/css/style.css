@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(132, 0, 132);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.span__nb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    margin: 1vh 0 1vh 0;
+}
+.span__nbcolor--active{
+    background-color: rgb(67, 67, 199);
+    color: white;
+}
+.span__txt{
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    height: 2vw;
+    margin: 1vh 0 1vh 0;
+}
+.span__txtbold--active{
+    font-weight: bold;
+}
+.etapes{
+    margin: 0 5vh 0 0;
+}
+.choose{
+    margin: 0 0 0 5vh;
+}
+.etape{
+    display: flex;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    width: 18vh;
+    height: 5vh;
+    margin: 3vh 0 2vh 0;
+}
+.button__sub--description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    width: 22vh;
+    height: 5vh;
+    margin: 3vh 0 2vh 0;
+}
+.button__back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    width: 13vh;
+    height: 5vh;
+    margin: 3vh 0 2vh 0;
+}
