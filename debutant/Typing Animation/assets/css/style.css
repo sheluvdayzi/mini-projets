@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#demo{
+    font-size: 5rem;
+}
