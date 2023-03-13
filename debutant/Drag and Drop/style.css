@@ -1,4 +1,21 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 43, 61);
+}
+
+.whiteSquare {
+    width: 10vw;
+    height: 15vh;
+    background-color: white;
+}
+
+.whiteSquare:hover{
+    background-color: rgb(201, 201, 201);
 }
