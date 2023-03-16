@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Validation</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!--
@@ -10,5 +11,32 @@
         and field confirmation (should check if the value of the linked field is the same).
         If form is invalid it shouldn't be submitted and errors must be shown.
     -->
+
+    <div class="container">
+        <form action="">
+            <div class="containerInput">
+                <label for="name" class="name remplirform">Name</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div class="containerInput">
+                <label for="email remplirform">Email</label>
+                <input type="email" id="name" name="user_name">
+            </div>
+            <div class="containerInput">
+                <label for="password remplirform">Password</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div class="containerInput">
+                <label for="confirmpassword remplirform">Confirm password</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <button class="submit__button">Submit</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
