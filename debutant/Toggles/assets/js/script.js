@@ -8,3 +8,10 @@ toggleSwitch.addEventListener("change", () => {
     element1.classList.remove("active");
   }
 });
+
+
+// for(let i =0; i < toggle.length; i++){
+//   toggle[i].querySelector("input").addEventListener("change", () => {
+//     console.log('ko');
+//   });
+// }
