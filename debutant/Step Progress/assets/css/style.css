@@ -97,3 +97,7 @@ body{
 .container__happy--none{
     display: none;
 }
+
+.none{
+    display: none;
+}

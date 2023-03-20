@@ -7,5 +7,7 @@ const subGoback = document.querySelector('.button__goback');
 
 subTitle.addEventListener('click', () =>{
     console.log('okoko');
-    document.querySelector('.container__description--none').classList.remove(); // Faire marcher le fais d'enlever la class "display: none;"
+    document.querySelector('.container__description').classList.remove('container__description--none'); // Faire marcher le fais d'enlever la class "display: none;"
+    document.querySelector('.container__choose__title').classList.add('none');
+    document.querySelector('.span__nb2').classList.add('span__nbcolor--active');
 })
