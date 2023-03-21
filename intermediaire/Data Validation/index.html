@@ -15,21 +15,25 @@
     <div class="container">
         <form action="">
             <div class="containerInput">
-                <label for="name" class="name remplirform">Name</label>
-                <input type="text" id="name" name="user_name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name" class="name remplirform">
             </div>
+            <p class="red--tag name__red--tag">Field is required</p>
             <div class="containerInput">
-                <label for="email remplirform">Email</label>
-                <input type="email" id="name" name="user_name">
+                <label for="email">Email</label>
+                <input type="email" id="name" name="user_name" class="email remplirform">
             </div>
+            <p class="red--tag email__red--tag">Enter vaild email</p>
             <div class="containerInput">
-                <label for="password remplirform">Password</label>
-                <input type="text" id="name" name="user_name">
+                <label for="password">Password</label>
+                <input type="text" id="name" name="user_name" class="password remplirform pass--regex">
             </div>
+            <p class="red--tag password__red--tag">Field is required</p>
             <div class="containerInput">
-                <label for="confirmpassword remplirform">Confirm password</label>
-                <input type="text" id="name" name="user_name">
+                <label for="password">Confirm password</label>
+                <input type="text" id="name" name="user_name" class="confirmPassword remplirform pass--regex">
             </div>
+            <p class="red--tag confirmPassword__red--tag">Enter vaild email</p>
             <button class="submit__button">Submit</button>
         </form>
     </div>

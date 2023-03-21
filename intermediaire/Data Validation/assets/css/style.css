@@ -35,7 +35,7 @@ body{
 form {
     display: flex;
     flex-direction: column;
-    gap: 3vh;
+    gap: 2vh;
     width: 90%;
 }
 
@@ -45,3 +45,20 @@ button{
     border: none;
     font-weight: bold;
 }
+
+.remplirform{
+    font-size: 15px;
+}
+
+.red--tag{
+    color: red;
+
+}
+
+.name__red--tag,
+.email__red--tag,
+.password__red--tag,
+.confirmPassword__red--tag{
+    color: white;
+}
+

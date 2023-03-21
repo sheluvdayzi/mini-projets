@@ -12,6 +12,16 @@ body{
     width: 100vw;
     height: 100vh;
 }
+p{
+    cursor: pointer;
+}
+
+.span__txt{
+    cursor: pointer;
+}
+.span__nb{
+    cursor: pointer;
+}
 
 .container{
     background-color: white;
@@ -66,6 +76,32 @@ body{
     height: 5vh;
     margin: 3vh 0 2vh 0;
 }
+
+.disable{
+    cursor: none;
+    pointer-events: none;
+}
+
+.button__goback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    width: 15vh;
+    height: 5vh;
+    margin: 3vh 0 2vh 0;
+}
+.button__goahead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 4px;
+    width: 15vh;
+    height: 5vh;
+    margin: 3vh 0 2vh 0;
+}
 .button__sub--description{
     display: flex;
     align-items: center;
@@ -86,6 +122,7 @@ body{
     height: 5vh;
     margin: 3vh 0 2vh 0;
 }
+
 .buttons{
     display: flex;
     flex-direction: row;
