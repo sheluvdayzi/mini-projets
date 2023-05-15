@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #446FEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockContain{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 33vw;
+    height: 15vh;
+    border-radius: 7px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #D9D8DA;
+    height: 3vh;
+    font-size: 17px;
+    width: 18vw;
+}
+
+button {
+    border: none;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 3px;
+    margin: 2vh;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.decompteNb{
+    background-color: #FD8B3B;
+    color: white;
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 0 red;
+    margin: 0 0.4vw;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    to {
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.01)
+    }
+}
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customCss{
+}
