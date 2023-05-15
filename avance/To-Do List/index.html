@@ -1,13 +1,27 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
+
 <head>
-    <title>Todo local storage</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To do list">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>To do list</title>
 </head>
 <body>
-    <!--
-        Build a a form that adds a new task to the list.
-        Tasks can be marked completed by clicking on them and reset by clicking the reset button.
-        All changes should be saved after page reload.
-    -->
+    <div class="container">
+        <div class="mainContent">
+            <form>
+                    <input type="text" class="enterTask" placeholder="Enter task name">
+                    <input type="submit" class="addTask" value="Add task">
+                <input type="reset" class="resetTasks" value="Reset tasks">
+            </form>
+        </div>
+        <div class="tasks">
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
