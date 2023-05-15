@@ -14,30 +14,30 @@ function tOutAlrt(){
     toastAlrt.disabled = false;
     toastMsg.disabled = false;
 }
-msg.addEventListener('mouseover', () => {
+msg.addEventListener('mouseover', () => { // Quand ma souris va sur le message 
     clearTimeout(timeoutMsg);
     console.log('mouseover');
 });
-msg.addEventListener('mouseleave', () => {
+msg.addEventListener('mouseleave', () => { // Quand ma souris n'est plus sur le message
     msg.classList.add('none');
     console.log('mouseleave');
 });
-alrt.addEventListener('mouseover', () => {
+alrt.addEventListener('mouseover', () => { // Quand ma souris va sur l'alert
     clearTimeout(timeoutAlrt);
     console.log('mouseover');
 });
-alrt.addEventListener('mouseleave', () => {
+alrt.addEventListener('mouseleave', () => { // Quand ma souris n'est plus sur l'alert
     alrt.classList.add('none');
     console.log('mouseleave');
 });
-toastMsg.addEventListener('click', () => {
+toastMsg.addEventListener('click', () => { // Pour afficher le message au click de 'Toast message'
     msg.classList.remove('none');
     console.log('Toast message cliqué');
     toastAlrt.disabled = true;
     toastMsg.disabled = true;
     timeoutMsg = setTimeout(tOutMsg, 3000);
 });
-toastAlrt.addEventListener('click', () => {
+toastAlrt.addEventListener('click', () => { // Pour afficher l'alert au click de 'Toast alert'
     alrt.classList.remove('none');
     console.log('Toast alert cliqué');
     toastMsg.disabled = true;
